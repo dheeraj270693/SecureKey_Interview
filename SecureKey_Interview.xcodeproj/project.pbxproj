@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		A228979F27CA9778009AF0AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A228979E27CA9778009AF0AC /* AppDelegate.swift */; };
 		A22897A127CA9778009AF0AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22897A027CA9778009AF0AC /* SceneDelegate.swift */; };
-		A22897A327CA9778009AF0AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22897A227CA9778009AF0AC /* ViewController.swift */; };
+		A22897A327CA9778009AF0AC /* BitManipulationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22897A227CA9778009AF0AC /* BitManipulationViewController.swift */; };
 		A22897A627CA9778009AF0AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22897A427CA9778009AF0AC /* Main.storyboard */; };
 		A22897A827CA9779009AF0AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22897A727CA9779009AF0AC /* Assets.xcassets */; };
 		A22897AB27CA9779009AF0AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22897A927CA9779009AF0AC /* LaunchScreen.storyboard */; };
 		A22897B627CA977A009AF0AC /* SecureKey_InterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22897B527CA977A009AF0AC /* SecureKey_InterviewTests.swift */; };
 		A22897C127CA977A009AF0AC /* SecureKey_InterviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22897C027CA977A009AF0AC /* SecureKey_InterviewUITests.swift */; };
+		A22897D227CAA728009AF0AC /* TextParseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22897D127CAA728009AF0AC /* TextParseViewController.swift */; };
+		A22897EB27CACAA9009AF0AC /* UITextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22897EA27CACAA9009AF0AC /* UITextfield.swift */; };
+		A22897F027CACAEC009AF0AC /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22897EF27CACAEC009AF0AC /* UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,7 @@
 		A228979B27CA9778009AF0AC /* SecureKey_Interview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureKey_Interview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A228979E27CA9778009AF0AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A22897A027CA9778009AF0AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A22897A227CA9778009AF0AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A22897A227CA9778009AF0AC /* BitManipulationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitManipulationViewController.swift; sourceTree = "<group>"; };
 		A22897A527CA9778009AF0AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A22897A727CA9779009AF0AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A22897AA27CA9779009AF0AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		A22897BC27CA977A009AF0AC /* SecureKey_InterviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecureKey_InterviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22897C027CA977A009AF0AC /* SecureKey_InterviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureKey_InterviewUITests.swift; sourceTree = "<group>"; };
 		A22897C227CA977A009AF0AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22897D127CAA728009AF0AC /* TextParseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextParseViewController.swift; sourceTree = "<group>"; };
+		A22897EA27CACAA9009AF0AC /* UITextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextfield.swift; sourceTree = "<group>"; };
+		A22897EF27CACAEC009AF0AC /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,11 @@
 		A228979D27CA9778009AF0AC /* SecureKey_Interview */ = {
 			isa = PBXGroup;
 			children = (
+				A22897E927CACA94009AF0AC /* Extensions */,
 				A228979E27CA9778009AF0AC /* AppDelegate.swift */,
 				A22897A027CA9778009AF0AC /* SceneDelegate.swift */,
-				A22897A227CA9778009AF0AC /* ViewController.swift */,
+				A22897D127CAA728009AF0AC /* TextParseViewController.swift */,
+				A22897A227CA9778009AF0AC /* BitManipulationViewController.swift */,
 				A22897A427CA9778009AF0AC /* Main.storyboard */,
 				A22897A727CA9779009AF0AC /* Assets.xcassets */,
 				A22897A927CA9779009AF0AC /* LaunchScreen.storyboard */,
@@ -126,6 +134,15 @@
 				A22897C227CA977A009AF0AC /* Info.plist */,
 			);
 			path = SecureKey_InterviewUITests;
+			sourceTree = "<group>";
+		};
+		A22897E927CACA94009AF0AC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A22897EA27CACAA9009AF0AC /* UITextfield.swift */,
+				A22897EF27CACAEC009AF0AC /* UIViewController.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A22897A327CA9778009AF0AC /* ViewController.swift in Sources */,
+				A22897EB27CACAA9009AF0AC /* UITextfield.swift in Sources */,
+				A22897A327CA9778009AF0AC /* BitManipulationViewController.swift in Sources */,
+				A22897F027CACAEC009AF0AC /* UIViewController.swift in Sources */,
 				A228979F27CA9778009AF0AC /* AppDelegate.swift in Sources */,
 				A22897A127CA9778009AF0AC /* SceneDelegate.swift in Sources */,
+				A22897D227CAA728009AF0AC /* TextParseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
